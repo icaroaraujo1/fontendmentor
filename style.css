@@ -1,0 +1,183 @@
+body {
+    background-color: hsl(221, 100%, 96%);
+    font-size: 18px;
+    font-family: 'Hanken Grotesk';
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container p {
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+}
+
+.text {
+    padding: 40px;
+}
+
+.card-0 {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 300px;
+    height: 490px;
+}
+
+.card-1 {
+    padding: 50px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+}
+
+.destaque {
+    color: hsl(0, 0%, 100%);
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo-0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-1:first-child {
+    padding: 20px 30px 10px 30px;
+}
+
+.fundo-1 {
+    padding: 0px 30px 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.summary {
+    background-color: rgb(248, 247, 247);
+    width: 300px;
+    height: 490px;
+    border-radius: 30px;
+
+}
+
+.caixa {
+    /* background-color: aqua; */
+    padding: 20px;
+}
+
+.caixa-text {
+    display: flex;
+    padding: 20px 0px 30px 10px;
+}
+
+.summary .reaction {
+    background-color: hsla(0, 100%, 67%, 0.11);
+    border-radius: 10px;
+    border: 10px;
+    margin: 0px 0px 20px;
+}
+
+.summary .memory {
+    background-color: hsla(39, 100%, 56%, 0.123);
+    border-radius: 10px;
+    border: 10px;
+    margin: 0px 0px 20px;
+}
+
+.summary .verbal {
+    background-color: hsla(166, 100%, 37%, 0.178);
+    border-radius: 10px;
+    border: 10px;
+    margin: 0px 0px 20px;
+}
+
+.summary .visual {
+    background-color: hsla(234, 85%, 45%, 0.075);
+    border-radius: 10px;
+    border: 10px;
+    margin: 0px 0px 30px;
+}
+
+img {
+    padding: 0px 0px 0px 10px;
+}
+
+.item-caixa {
+    padding: 15px 70px 15px 10px;
+
+}
+
+.reaction {
+    display: flex;
+    align-items: center;
+}
+
+.reaction li {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    display: flex;
+    align-items: center;
+}
+
+.memory li {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    display: flex;
+    align-items: center;
+}
+
+.verbal li {
+    color: hsl(166, 100%, 37%);
+    padding: 15px 85px 15px 10px;
+}
+
+.visual {
+    display: flex;
+    align-items: center;
+}
+
+.visual li {
+    color: hsl(234, 85%, 45%);
+    padding: 15px 90px 15px 10px;
+}
+
+.caixa-buttun {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 100px;
+
+}
+
+.button {
+    border: 20px solid hsl(224, 30%, 27%);
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+@media(max-width: 750px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
